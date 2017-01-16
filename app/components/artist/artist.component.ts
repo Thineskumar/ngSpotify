@@ -9,7 +9,7 @@ import { SpotifyService } from '../../services/spotify.service';
   selector: 'artist',
   templateUrl: 'artist.component.html',
 })
-export class ArtistComponent {
+export class ArtistComponent implements OnInit {
   id: string;
   artist: Artist[];
   albums: Album[];
