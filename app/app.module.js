@@ -15,6 +15,8 @@ var http_1 = require('@angular/http');
 var app_component_1 = require('./app.component');
 var search_component_1 = require('./components/search/search.component');
 var about_component_1 = require('./components/about/about.component');
+var artist_component_1 = require('./components/artist/artist.component');
+var album_component_1 = require('./components/album/album.component');
 var navbar_component_1 = require('./components/navbar/navbar.component');
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
@@ -23,7 +25,7 @@ var AppModule = (function () {
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule, app_routing_1.routing, forms_1.FormsModule, http_1.HttpModule],
-            declarations: [app_component_1.AppComponent, search_component_1.SearchComponent, about_component_1.AboutComponent, navbar_component_1.NavbarComponent],
+            declarations: [app_component_1.AppComponent, search_component_1.SearchComponent, about_component_1.AboutComponent, navbar_component_1.NavbarComponent, artist_component_1.ArtistComponent, album_component_1.AlbumComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
