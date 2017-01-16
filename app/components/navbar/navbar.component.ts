@@ -3,6 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   moduleId: module.id,
   selector: 'navbar',
-  templateUrl: 'navabr.component.html',
+  templateUrl: 'navbar.component.html',
 })
 export class NavbarComponent  {  }
