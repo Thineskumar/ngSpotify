@@ -6,11 +6,11 @@ import {AboutComponent} from './components/about/about.component';
 
 const appRoutes: Routes = [
     {
-        path: '/',
+        path: '',
         component: SearchComponent
     },
     {
-        path: '/about',
+        path: 'about',
         component: AboutComponent
     }
 ];
